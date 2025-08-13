@@ -1576,6 +1576,20 @@ body {
     background-clip: text;
 }
 
+.free-badge {
+    background: linear-gradient(135deg, #10b981, #059669);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 900;
+    animation: freePulse 2s ease-in-out infinite;
+}
+
+@keyframes freePulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
 .website-cta p {
     font-size: 1.2rem;
     color: #cbd5e1;
@@ -1617,6 +1631,27 @@ body {
     color: #fff;
     font-weight: 500;
     font-size: 0.95rem;
+}
+
+.website-feature.highlight-feature {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(5, 150, 105, 0.2));
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    animation: highlightGlow 2s ease-in-out infinite alternate;
+}
+
+.website-feature.highlight-feature i {
+    color: #10b981;
+    animation: giftBounce 1.5s ease-in-out infinite;
+}
+
+@keyframes highlightGlow {
+    0% { box-shadow: 0 0 10px rgba(16, 185, 129, 0.3); }
+    100% { box-shadow: 0 0 20px rgba(16, 185, 129, 0.6); }
+}
+
+@keyframes giftBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
 }
 
 .website-cta .btn-outline {
