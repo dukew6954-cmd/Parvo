@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parvo - AI-Powered Review Management for Local Businesses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-star"></i>
+                    <div class="logo-glow"></div>
+                </div>
+                <span>Parvo</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#comparison">Compare</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact" class="cta-button">Start Free Trial</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-animation"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">🔥 #1 Review Management Platform</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Stop Losing Customers</span>
+                    <span class="title-line highlight">to Bad Reviews</span>
+                </h1>
+                <p class="hero-subtitle">Get 5x more 5-star Google reviews automatically. The affordable alternative to Podium, Birdeye, and NiceJob that actually works for small businesses.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="5">0</span>
+                        <span class="stat-label">x More Reviews</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="95">0</span>
+                        <span class="stat-label">% 5-Star Rate</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="29">0</span>
+                        <span class="stat-label">$ Starting Price</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="btn-primary btn-glow">
+                        <span class="btn-text">Start Free 14-Day Trial</span>
+                        <div class="btn-shine"></div>
+                    </button>
+                    <button class="btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Watch Demo (2 min)
+                    </button>
+                </div>
+                <p class="hero-note">No credit card required • Cancel anytime</p>
+            </div>
+            <div class="hero-image">
+                <div class="dashboard-mockup">
+                    <div class="mockup-glow"></div>
+                    <div class="mockup-header">
+                        <div class="mockup-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="mockup-content">
+                        <div class="review-card floating">
+                            <div class="review-header">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating">5.0</span>
+                            </div>
+                            <p>"Amazing service! Will definitely recommend to friends."</p>
+                            <div class="review-author">- Sarah M.</div>
+                        </div>
+                        <div class="stats-grid">
+                            <div class="stat-item pulse">
+                                <span class="stat-value" data-target="47">0</span>
+                                <span class="stat-label">New Reviews</span>
+                            </div>
+                            <div class="stat-item pulse">
+                                <span class="stat-value" data-target="4.8">0</span>
+                                <span class="stat-label">Avg Rating</span>
+                            </div>
+                        </div>
+                        <div class="notification-popup">
+                            <i class="fas fa-bell"></i>
+                            <span>New 5-star review received!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Transformation Section -->
+    <section class="transformation">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">🚀</span>
+                From Review Chaos to 5-Star Success
+            </h2>
+            <p class="section-subtitle">See how local businesses transform their online reputation in just 30 days</p>
+            
+            <div class="transformation-grid">
+                <div class="transformation-card before">
+                    <div class="card-header">
+                        <div class="status-badge bad">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Before Parvo
+                        </div>
+                    </div>
+                    <div class="transformation-content">
+                        <div class="stats-row">
+                            <div class="stat-item">
+                                <span class="stat-number">3.2</span>
+                                <span class="stat-label">Avg Rating</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">12</span>
+                                <span class="stat-label">Total Reviews</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2</span>
+                                <span class="stat-label">New Customers/Month</span>
+                            </div>
+                        </div>
+                        <div class="pain-points">
+                            <h4>Common Struggles:</h4>
+                            <ul>
+                                <li><i class="fas fa-times"></i> Spending 5+ hours/week begging for reviews</li>
+                                <li><i class="fas fa-times"></i> Negative reviews destroying reputation</li>
+                                <li><i class="fas fa-times"></i> Competitors ranking higher in search</li>
+                                <li><i class="fas fa-times"></i> Customers choosing other businesses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transformation-arrow">
+                    <div class="arrow-icon">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="arrow-text">30 Days Later</div>
+                </div>
+
+                <div class="transformation-card after">
+                    <div class="card-header">
+                        <div class="status-badge good">
+                            <i class="fas fa-star"></i>
+                            With Parvo
+                        </div>
+                    </div>
+                    <div class="transformation-content">
+                        <div class="stats-row">
+                            <div class="stat-item">
+                                <span class="stat-number">4.8</span>
+                                <span class="stat-label">Avg Rating</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">47</span>
+                                <span class="stat-label">Total Reviews</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">23</span>
+                                <span class="stat-label">New Customers/Month</span>
+                            </div>
+                        </div>
+                        <div class="success-points">
+                            <h4>Results Achieved:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Automated review requests working 24/7</li>
+                                <li><i class="fas fa-check"></i> Negative feedback filtered privately</li>
+                                <li><i class="fas fa-check"></i> Top 3 ranking in local search</li>
+                                <li><i class="fas fa-check"></i> Phone ringing off the hook</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="transformation-cta">
+                <div class="cta-content">
+                    <h3>Ready for Your Transformation?</h3>
+                    <p>Join 2,000+ businesses who've already made the switch</p>
+                    <div class="cta-buttons">
+                        <button class="btn-primary btn-glow">
+                            <span class="btn-text">Start Free Trial</span>
+                            <div class="btn-shine"></div>
+                        </button>
+                        <button class="btn-secondary">
+                            <i class="fas fa-play"></i>
+                            See Real Results
+                        </button>
+                    </div>
+                </div>
+                <div class="social-proof">
+                    <div class="proof-item">
+                        <span class="proof-number">2,000+</span>
+                        <span class="proof-label">Happy Businesses</span>
+                    </div>
+                    <div class="proof-item">
+                        <span class="proof-number">50,000+</span>
+                        <span class="proof-label">Reviews Generated</span>
+                    </div>
+                    <div class="proof-item">
+                        <span class="proof-number">4.9★</span>
+                        <span class="proof-label">Customer Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="industries">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">🏢</span>
+                Perfect for Every Local Business
+            </h2>
+            <p class="section-subtitle">Join thousands of businesses across all industries who trust Parvo to grow their online reputation</p>
+            
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-cut"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Beauty & Personal Care</h3>
+                    <p>Salons, barbershops, spas, nail salons, and beauty clinics</p>
+                    <ul class="industry-benefits">
+                        <li><i class="fas fa-check"></i> High customer satisfaction rates</li>
+                        <li><i class="fas fa-check"></i> Repeat client relationships</li>
+                        <li><i class="fas fa-check"></i> Visual service results</li>
+                    </ul>
+                    <div class="industry-stats">
+                        <span class="stat">4.8★ Avg Rating</span>
+                        <span class="stat">+67% More Reviews</span>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-tools"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Home Services</h3>
+                    <p>Plumbers, electricians, HVAC, cleaning, and maintenance</p>
+                    <ul class="industry-benefits">
+                        <li><i class="fas fa-check"></i> Emergency service calls</li>
+                        <li><i class="fas fa-check"></i> Quality workmanship focus</li>
+                        <li><i class="fas fa-check"></i> Trust-based relationships</li>
+                    </ul>
+                    <div class="industry-stats">
+                        <span class="stat">4.7★ Avg Rating</span>
+                        <span class="stat">+89% More Reviews</span>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-car"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Automotive</h3>
+                    <p>Auto repair, car washes, detailing, and dealerships</p>
+                    <ul class="industry-benefits">
+                        <li><i class="fas fa-check"></i> Technical expertise showcase</li>
+                        <li><i class="fas fa-check"></i> Before/after transformations</li>
+                        <li><i class="fas fa-check"></i> Reliability and trust</li>
+                    </ul>
+                    <div class="industry-stats">
+                        <span class="stat">4.6★ Avg Rating</span>
+                        <span class="stat">+73% More Reviews</span>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-heartbeat"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Healthcare & Wellness</h3>
+                    <p>Dental offices, medical spas, chiropractors, and fitness</p>
+                    <ul class="industry-benefits">
+                        <li><i class="fas fa-check"></i> Health outcome results</li>
+                        <li><i class="fas fa-check"></i> Professional expertise</li>
+                        <li><i class="fas fa-check"></i> Patient care quality</li>
+                    </ul>
+                    <div class="industry-stats">
+                        <span class="stat">4.9★ Avg Rating</span>
+                        <span class="stat">+82% More Reviews</span>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-utensils"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Food & Hospitality</h3>
+                    <p>Restaurants, cafes, food trucks, and catering services</p>
+                    <ul class="industry-benefits">
+                        <li><i class="fas fa-check"></i> Culinary experience sharing</li>
+                        <li><i class="fas fa-check"></i> Atmosphere and service</li>
+                        <li><i class="fas fa-check"></i> Food quality feedback</li>
+                    </ul>
+                    <div class="industry-stats">
+                        <span class="stat">4.5★ Avg Rating</span>
+                        <span class="stat">+91% More Reviews</span>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Professional Services</h3>
+                    <p>Lawyers, accountants, real estate, and consultants</p>
+                    <ul class="industry-benefits">
+                        <li><i class="fas fa-check"></i> Professional expertise</li>
+                        <li><i class="fas fa-check"></i> Client outcome success</li>
+                        <li><i class="fas fa-check"></i> Trust and reliability</li>
+                    </ul>
+                    <div class="industry-stats">
+                        <span class="stat">4.8★ Avg Rating</span>
+                        <span class="stat">+76% More Reviews</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="industries-cta">
+                                    <p>Don't see your industry? Parvo works for any local business that values customer satisfaction!</p>
+                <button class="btn-primary btn-glow">Start Free Trial</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">⚡</span>
+                Everything You Need to Dominate Local Search
+            </h2>
+            <p class="section-subtitle">Built specifically for local businesses who want more customers, not more work.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>SMS & Email Automation</h3>
+                    <p>Send review requests via SMS and email automatically after each service. Customizable timing and messaging.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Personalized customer messages</li>
+                        <li><i class="fas fa-check"></i> Flexible timing options</li>
+                        <li><i class="fas fa-check"></i> Multi-channel delivery</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-filter"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Smart Review Filtering</h3>
+                    <p>Our AI analyzes sentiment and only publishes positive reviews. Negative feedback stays private for your internal review.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Sentiment analysis</li>
+                        <li><i class="fas fa-check"></i> Automatic filtering</li>
+                        <li><i class="fas fa-check"></i> Private feedback collection</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>AI Reply Assistant</h3>
+                    <p>Generate personalized, professional responses to reviews instantly. Save hours every week on review management.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> One-click responses</li>
+                        <li><i class="fas fa-check"></i> Brand voice customization</li>
+                        <li><i class="fas fa-check"></i> Professional templates</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Performance Dashboard</h3>
+                    <p>Track your review growth, response rates, and overall online reputation with detailed analytics and reports.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Real-time analytics</li>
+                        <li><i class="fas fa-check"></i> Monthly performance reports</li>
+                        <li><i class="fas fa-check"></i> Competitor benchmarking</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-link"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Google Review Integration</h3>
+                    <p>Direct integration with Google My Business. Reviews appear instantly on your Google listing and improve local SEO.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> One-click Google setup</li>
+                        <li><i class="fas fa-check"></i> Automatic review posting</li>
+                        <li><i class="fas fa-check"></i> SEO optimization</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Website Review Widget</h3>
+                    <p>Display your best reviews on your website to build trust and convert more visitors into customers.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Customizable widgets</li>
+                        <li><i class="fas fa-check"></i> Mobile-responsive design</li>
+                        <li><i class="fas fa-check"></i> Easy website integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section id="comparison" class="comparison">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">🏆</span>
+                Why Choose Parvo Over the Competition?
+            </h2>
+            <p class="section-subtitle">We're not just cheaper—we're better designed for local businesses.</p>
+            
+            <div class="comparison-table">
+                <div class="comparison-header">
+                    <div class="comparison-feature">Features</div>
+                    <div class="comparison-company winner">
+                        <div class="winner-badge">Winner</div>
+                        Parvo
+                    </div>
+                    <div class="comparison-company">Podium</div>
+                    <div class="comparison-company">Birdeye</div>
+                    <div class="comparison-company">NiceJob</div>
+                </div>
+                
+                <div class="comparison-row">
+                    <div class="comparison-feature">Starting Price</div>
+                    <div class="comparison-value highlight">$29.99/mo</div>
+                    <div class="comparison-value">$249+/mo</div>
+                    <div class="comparison-value">$299+/mo</div>
+                    <div class="comparison-value">$199+/mo</div>
+                </div>
+                
+                <div class="comparison-row">
+                    <div class="comparison-feature">Review Requests</div>
+                    <div class="comparison-value highlight">25/month (Starter)<br>Unlimited (Growth+)</div>
+                    <div class="comparison-value">Monthly Limits</div>
+                    <div class="comparison-value">Monthly Limits</div>
+                    <div class="comparison-value">Monthly Limits</div>
+                </div>
+                
+                <div class="comparison-row">
+                    <div class="comparison-feature">Negative Review Filter</div>
+                    <div class="comparison-value highlight">✓</div>
+                    <div class="comparison-value">✗</div>
+                    <div class="comparison-value">✗</div>
+                    <div class="comparison-value">✗</div>
+                </div>
+                
+                <div class="comparison-row">
+                    <div class="comparison-feature">AI Reply Assistant</div>
+                    <div class="comparison-value highlight">✓</div>
+                    <div class="comparison-value">✗</div>
+                    <div class="comparison-value">✗</div>
+                    <div class="comparison-value">✗</div>
+                </div>
+                
+                <div class="comparison-row">
+                    <div class="comparison-feature">Customer Support</div>
+                    <div class="comparison-value highlight">24/7 Chat</div>
+                    <div class="comparison-value">Email Support</div>
+                    <div class="comparison-value">Phone Support</div>
+                    <div class="comparison-value">Email Support</div>
+                </div>
+            </div>
+            
+            <div class="comparison-cta">
+                <p>Join 2,000+ local businesses who switched from expensive platforms to Parvo</p>
+                <button class="btn-primary btn-glow">Start Free Trial</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">💰</span>
+                Simple, Transparent Pricing
+            </h2>
+            <p class="section-subtitle">No hidden fees, no long-term contracts. Cancel anytime.</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p>Perfect for small businesses just getting started</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 25 review requests/month</li>
+                        <li><i class="fas fa-check"></i> SMS & email automation</li>
+                        <li><i class="fas fa-check"></i> Google review integration</li>
+                        <li><i class="fas fa-check"></i> Basic monthly reports</li>
+                        <li><i class="fas fa-check"></i> 1 location</li>
+                        <li><i class="fas fa-check"></i> Email support</li>
+                    </ul>
+                    <button class="btn-outline">Start Free Trial</button>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">
+                        <i class="fas fa-crown"></i>
+                        Most Popular
+                    </div>
+                    <div class="card-glow"></div>
+                    <div class="pricing-header">
+                        <h3>Growth</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">79</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p>Everything you need to scale your review strategy</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited review requests</li>
+                        <li><i class="fas fa-check"></i> SMS & email automation</li>
+                        <li><i class="fas fa-check"></i> Google & Facebook integration</li>
+                        <li><i class="fas fa-check"></i> Negative review filter</li>
+                        <li><i class="fas fa-check"></i> Weekly performance reports</li>
+                        <li><i class="fas fa-check"></i> Branded message templates</li>
+                        <li><i class="fas fa-check"></i> 1 location</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                    <button class="btn-primary btn-glow">Start Free Trial</button>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">129</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p>Advanced features for growing businesses</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Growth</li>
+                        <li><i class="fas fa-check"></i> AI-powered reply assistant</li>
+                        <li><i class="fas fa-check"></i> Website review widget</li>
+                        <li><i class="fas fa-check"></i> Competitor monitoring</li>
+                        <li><i class="fas fa-check"></i> Sentiment analysis dashboard</li>
+                        <li><i class="fas fa-check"></i> Up to 3 locations</li>
+                        <li><i class="fas fa-check"></i> Custom integrations</li>
+                        <li><i class="fas fa-check"></i> Dedicated account manager</li>
+                    </ul>
+                    <button class="btn-outline">Start Free Trial</button>
+                </div>
+            </div>
+            
+            <div class="pricing-note">
+                <p><i class="fas fa-info-circle"></i> All plans include a 14-day free trial. No credit card required to start.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">⭐</span>
+                What Our Customers Say
+            </h2>
+            <p class="section-subtitle">Join thousands of local businesses who've transformed their online reputation</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Parvo helped us get 47 new 5-star reviews in just 3 months. Our phone hasn't stopped ringing since!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <strong>Mike Rodriguez</strong>
+                            <span>Elite Cuts Barbershop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The negative review filter is a game-changer. We can address issues privately while maintaining our perfect online reputation."</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <strong>Sarah Chen</strong>
+                            <span>Serenity Med Spa</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Switched from Podium and saved $200/month while getting better results. The AI reply feature saves me hours every week."</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <strong>David Thompson</strong>
+                            <span>Thompson Plumbing Co.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get More 5-Star Reviews?</h2>
+                <p>Join 2,000+ local businesses who've transformed their online reputation with Parvo</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary btn-glow btn-large">
+                        <span class="btn-text">Start Free 14-Day Trial</span>
+                        <div class="btn-shine"></div>
+                    </button>
+                    <button class="btn-secondary btn-large">
+                        <i class="fas fa-play"></i>
+                        Schedule Demo
+                    </button>
+                </div>
+                <p class="cta-note">No credit card required • Setup in 5 minutes • Cancel anytime</p>
+            </div>
+            <div class="cta-stats">
+                <div class="cta-stat">
+                    <span class="stat-number" data-target="2000">0</span>
+                    <span class="stat-label">Happy Customers</span>
+                </div>
+                <div class="cta-stat">
+                    <span class="stat-number" data-target="50000">0</span>
+                    <span class="stat-label">Reviews Generated</span>
+                </div>
+                <div class="cta-stat">
+                    <span class="stat-number" data-target="99">0</span>
+                    <span class="stat-label">% Uptime</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span>Parvo</span>
+                    </div>
+                    <p>The affordable AI-powered review management solution for local businesses.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#comparison">Compare</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Parvo. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
