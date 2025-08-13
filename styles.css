@@ -1715,14 +1715,73 @@ body {
         gap: 1.5rem;
     }
 
-    .comparison-header, .comparison-row {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+    /* Mobile-friendly comparison table */
+    .comparison-table {
+        display: block;
+        background: transparent;
+        border: none;
+        padding: 0;
     }
 
-    .comparison-company, .comparison-feature, .comparison-value {
+    .comparison-header {
+        display: none;
+    }
+
+    .comparison-row {
+        display: block;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 15px;
+        margin-bottom: 1rem;
+        padding: 1.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .comparison-feature {
+        display: block;
         text-align: center;
-        padding: 1rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #667eea;
+        margin-bottom: 1rem;
+        padding: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 0.5rem;
+    }
+
+    .comparison-value {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.8rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        text-align: left;
+    }
+
+    .comparison-value:last-child {
+        border-bottom: none;
+    }
+
+    .comparison-value::before {
+        content: attr(data-company);
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .comparison-value.highlight::before {
+        content: "Parvo ✓";
+        color: #667eea;
+    }
+
+    .comparison-value[data-company="Podium"]::before {
+        content: "Podium";
+    }
+
+    .comparison-value[data-company="Birdeye"]::before {
+        content: "Birdeye";
+    }
+
+    .comparison-value[data-company="NiceJob"]::before {
+        content: "NiceJob";
     }
 
     .pricing-grid {
